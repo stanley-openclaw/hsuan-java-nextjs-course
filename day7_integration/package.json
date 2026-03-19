@@ -1,0 +1,10 @@
+{
+  "name": "day7-integration",
+  "private": true,
+  "description": "Proxy scripts so npm run dev runs my-frontend-app from repo root.",
+  "scripts": {
+    "dev": "npm run dev --prefix my-frontend-app",
+    "build": "npm run build --prefix my-frontend-app",
+    "install:frontend": "npm install --prefix my-frontend-app"
+  }
+}
